@@ -11,3 +11,19 @@ const onScroll = () => {
 const openMenu = () => document.body.classList.add('menu-expanded');
 
 const closeMenu = () => document.body.classList.remove('menu-expanded');
+
+// ScrollReveal Lib
+ScrollReveal({
+  origem: 'top',
+  distance: '30px',
+  duration: 700,
+}).reveal(`
+  #home, 
+  #home img, 
+  #home .stats,
+  #services,
+  #services header,
+  #services .card, 
+  #about,
+  #about header,
+  #about .content`);
