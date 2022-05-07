@@ -1,1 +1,1 @@
-_(link)[https://guilherme-ac-fernandes.github.io/nlw-return-origin/]_
+_[link](https://guilherme-ac-fernandes.github.io/nlw-return-origin/)_
