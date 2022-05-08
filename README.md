@@ -1,6 +1,6 @@
-## Projeto DoctorCare 
+## Projeto DoctorCare (Simple Landing Page)
 
-#### Consiste em uma página web fictícia para uma aplicação na área da saúde.
+#### Consiste em uma aplicação fictícia de uma única página relacionada ao setor de saúde.
 > Esta aplicação foi desenvolvida utilizando JavaScript, HTML5 e CSS3.
 
 :point_right: **Acessar:** _[Clique Aqui](https://guilherme-ac-fernandes.github.io/nlw-return-origin/)_
