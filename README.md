@@ -1,5 +1,5 @@
 ## Projeto DoctorCare
-### Simple Landing Page
+> ### Simple Landing Page
 
 #### Consiste em uma aplicação fictícia de uma única página relacionada ao setor de saúde.
 > Esta aplicação foi desenvolvida utilizando JavaScript, HTML5 e CSS3.
