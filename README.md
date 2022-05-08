@@ -5,4 +5,4 @@
 
 :point_right: **Acessar:** _[Clique Aqui](https://guilherme-ac-fernandes.github.io/nlw-return-origin/)_
 
-_[FIGMA](https://www.figma.com/file/NSQuXgx7C4ukgCunoMMk3r/DoctorCare-(Community)?node-id=1740%3A492)_
+<!-- _[FIGMA](https://www.figma.com/file/NSQuXgx7C4ukgCunoMMk3r/DoctorCare-(Community)?node-id=1740%3A492)_ -->
