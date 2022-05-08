@@ -1,4 +1,8 @@
-const onScroll = () => {
+
+// window.addEventListener('scroll', onScroll)
+// onScroll();
+
+const showNavOnScrol = () => {
   // A função onScroll executa no html na tag body com a propriedade 'onscroll'
   const navigation = document.getElementById('navigation');
   if (scrollY > 0) {
@@ -6,6 +10,20 @@ const onScroll = () => {
   } else {
     navigation.classList.remove('scroll');
   };
+}
+
+const showBackToTheTopButtonScroll = () => {
+  const backToTopButton = document.getElementById('backToTopButton');
+  if (scrollY > 400) {
+    backToTopButton.classList.add('show');
+  } else {
+    backToTopButton.classList.remove('show');
+  };
+}
+
+const onScroll = () => {
+  showNavOnScrol();
+  showBackToTheTopButtonScroll();
 };
 
 const openMenu = () => document.body.classList.add('menu-expanded');
@@ -26,4 +44,6 @@ ScrollReveal({
   #services .card, 
   #about,
   #about header,
-  #about .content`);
+  #about .content,
+  #about .content img`
+);
