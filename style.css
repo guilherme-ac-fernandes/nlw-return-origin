@@ -569,7 +569,7 @@ footer .social-links {
     color: var(--white);
   }
 
-  nav#navigation .menu ul li a.active, 
+  nav#navigation .menu ul li a.active,
   nav#navigation .menu ul li a:hover {
     opacity: 1;
     font-weight: 700;
@@ -591,7 +591,7 @@ footer .social-links {
     background-color: var(--white);
   }
 
-  nav#navigation .menu ul li a:active::after,
+  nav#navigation .menu ul li a.active::after,
   nav#navigation .menu ul li a:hover::after {
     padding-inline: 0.8rem;
     width: 100%;

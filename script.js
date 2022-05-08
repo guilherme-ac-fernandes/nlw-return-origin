@@ -20,9 +20,30 @@ const showBackToTheTopButtonScroll = () => {
   };
 }
 
+const activateMenuAtCurrentSection = (section) => {
+  const targetLine = scrollY + (innerHeight / 2);
+
+  const menuElement = document.querySelector(`.menu a[href*=${section.getAttribute('id')}]`)
+
+  const sectionTop = section.offsetTop;
+  const sectionHeight = section.offsetHeight;
+  const sectionEndsAt = sectionTop + sectionHeight;
+
+  const sectionBoundaries = sectionTop <= targetLine &&  !(targetLine >= sectionEndsAt);
+
+  if (sectionBoundaries) menuElement.classList.add('active');
+  else menuElement.classList.remove('active');
+  
+}
+
 const onScroll = () => {
   showNavOnScrol();
   showBackToTheTopButtonScroll();
+  activateMenuAtCurrentSection(home);
+  activateMenuAtCurrentSection(services);
+  activateMenuAtCurrentSection(about);
+  // activateMenuAtCurrentSection(depositions);
+  activateMenuAtCurrentSection(contact);
 };
 
 const openMenu = () => document.body.classList.add('menu-expanded');
