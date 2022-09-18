@@ -14,4 +14,3 @@ Consiste em uma aplicação fictícia de uma única página relacionada ao setor
 <p align="center">
   <img src="https://github.com/guilherme-ac-fernandes/nlw-return-origin/blob/main/simple-landing-page.png" alt="Simple Landing Page - Demostração"/>
 </p>
-
