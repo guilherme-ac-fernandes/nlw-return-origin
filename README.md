@@ -1,9 +1,10 @@
-# Simple Landing Page 🩺
-> Projeto DoctorCare
+# Projeto DoctorCare 🩺
+> Projeto da Rocketseat
 
 Consiste em uma aplicação fictícia de uma única página relacionada ao setor de saúde.
 
 * Construída utilizado HTML5, CSS3 e JavaScript.
+* Criada em uma única página, denominada Simple Landing Page.
 
 ### Demonstração
 
