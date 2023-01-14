@@ -1,4 +1,4 @@
-# Projeto DoctorCare 🩺
+# Projeto DoctorCare 🩺🏥
 > Projeto da Rocketseat
 
 Consiste em uma aplicação fictícia de uma única página relacionada ao setor de saúde.
